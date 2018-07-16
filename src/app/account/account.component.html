@@ -1,0 +1,9 @@
+<p>
+    Try to switch to HOME page without clicking DeActivate link.
+</p>
+<p>
+    <button (click)="changeDeActive()">DeActivate Check and make active HOME !</button>
+</p>
+<p>
+  account works! <span *ngIf="isDeActive" [ngClass]="{'active' : isDeActive}">Now go to HOME Page.</span>
+</p>

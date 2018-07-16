@@ -1,1 +1,25 @@
 /* You can add global styles to this file, and also import other style files */
+.active {
+    font-weight: bold;
+    color: green;
+    display: block;
+}
+
+.container-left {
+    width: 45%;
+    float: left;
+    
+}
+
+.container-right {
+    width: 50%;
+    float: left;
+    background: #d9d9d9;
+    padding: .5em;
+    text-align: center;
+    margin-top: 4em;
+}
+
+.box {
+    margin: 4em 1em;
+}
